@@ -23,6 +23,7 @@ const config = {
         "primary-font": "var(--primary-font-color)",
         "womens-clothing": "var(--womens-clothing)",
         "mens-clothing": "var(--mens-clothing)",
+        "price-font": "var(--price-font-color)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

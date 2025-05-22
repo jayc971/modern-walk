@@ -22,7 +22,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
         </div>
         <div className={`${bgColor} p-6 text-center rounded-xl`}>
-            <p className="text-2xl font-bold text-blue-600 mb-2">Rs {product.price.toFixed(2)}</p>
+            <p className="text-2xl font-bold text-price-font mb-2">Rs {product.price.toFixed(2)}</p>
           <p className="text-black text-sm line-clamp-4">{product.description}</p>
         </div>
       </div>

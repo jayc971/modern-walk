@@ -21,7 +21,7 @@ export default function RootLayout({
         <div className="mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <header className="py-6 border-b-4 border-[#D9D9D9]">
             <Link href="/">
-              <h1 className="text-4xl font-bold text-center text-primary-font hover:text-gray-200 transition-colors">
+              <h1 className="text-4xl font-bold text-center text-primary-font hover:text-gray-600 transition-colors">
                 Modern Walk
               </h1>
             </Link>

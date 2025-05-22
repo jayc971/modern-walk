@@ -35,10 +35,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <p className="text-gray-700 mb-6 text-justify">{product.description}</p>
           <div className="text-white text-center rounded-xl py-6 mb-6 flex justify-between items-center">
             <p className="text-4xl font-bold text-blue-600">Rs {product.price.toFixed(2)}</p>
-            <Button className="flex items-center justify-center gap-2 p-6">
+            {/*<Button className="flex items-center justify-center gap-2 p-6">
               <ShoppingCart className="w-5 h-5" />
               Add to Cart
-            </Button>
+            </Button>*/}
           </div>
         </div>
       </div>

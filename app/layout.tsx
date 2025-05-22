@@ -6,9 +6,8 @@ import Link from "next/link"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Modern Walk | Fashion Retail",
-  description: "Modern Walk fashion retail web app",
-  generator: "v0.dev",
+  title: "Modern Walk",
+  description: "Modern Walk"
 }
 
 export default function RootLayout({
